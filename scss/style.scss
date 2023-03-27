@@ -1,0 +1,33 @@
+//UTILITIES//
+    //Variables//
+      @import "./utilities/variables";
+
+//BASE//
+  //*tipografia*//
+    @import "./base/tipografia";
+    //*reset*//
+    @import "./base/reset";
+    //*mixins*//
+    @import "./utilities/mixins";
+
+//*header pages*//
+  @import "./layout/home";
+  @import "./layout/section-index";
+  @import "./layout/portafolio";
+  @import "./layout/contacto";
+  @import "./layout/menu";
+
+  /**footer pages**/
+  @import "./layout/footer-index";
+
+  //RESPONSIVE 768px//
+  @import "./layout/media-768";
+  
+  //MOBILE  425px//
+  @import "./layout/media-425";
+
+  //MOBILE 375px//
+  @import "./layout/media-375";
+
+  //MOBILE 320px//
+  @import "./layout/media-320";

@@ -1,0 +1,29 @@
+.main{
+    .home{
+      .home.home-text{
+        margin-top: 80px;
+         display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 10vw;
+        background-color: transparent;
+        height: auto;
+        width: 75%;
+        text-align: left;
+        background-color: rgb(243, 230, 230);
+        padding: 50px;
+        border-radius: 25px;
+        opacity: 0.7;
+        margin: auto;
+        margin-top: 160px;
+      }
+    }
+  }
+  .ruta{
+      justify-content: center;
+      margin-top: 0px;
+      gap: 20px;
+      display: flex;
+    }
+  .ruta-2{
+    @extend .ruta;
+  }

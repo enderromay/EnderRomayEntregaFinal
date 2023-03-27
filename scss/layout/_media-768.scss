@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+  .project-details a{
+    color: transparent;
+  }
+  .card{
+    width: 90px;
+    height: 70px;
+    margin-top: 100px;
+  }
+  header label{
+    display: block;
+}
+.menu{
+    position: absolute;
+    background: rgb(23, 23, 64);
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s;
+}
+
+.menu ul{
+    flex-direction: column;
+}
+
+.menu li {
+    border-top: 1px solid #fff;
+}
+#btn-menu:checked ~ .menu {
+    margin: 0;
+}
+    .desarrollar{
+      background-color: transparent;
+      color: transparent;
+    }
+    .contact_form h2{
+      margin-top: 200px;
+    }
+    .text_main_buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+    }
+    .home-text {
+      margin-top: 1px;
+      text-align: center;
+    }
+    header .container nav a {
+      text-align: center;
+      flex-direction: row-reverse;
+    }
+
+    .video{
+      margin-top: 40px;
+      display: block;
+    }
+  }

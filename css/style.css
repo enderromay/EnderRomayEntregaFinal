@@ -1,0 +1,407 @@
+body {
+  background: linear-gradient(#143674f5, #f3f0f0);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: "Roboto";
+  font-size: 13px;
+  text-align: center; }
+
+.main .home .home.home-text {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10vw;
+  background-color: transparent;
+  height: auto;
+  width: 75%;
+  text-align: left;
+  background-color: #f3e6e6;
+  padding: 50px;
+  border-radius: 25px;
+  opacity: 0.7;
+  margin: auto;
+  margin-top: 160px; }
+
+.ruta, .ruta-2 {
+  justify-content: center;
+  margin-top: 0px;
+  gap: 20px;
+  display: flex; }
+
+.parrafo .proyecto .main .text_main_buttons .item {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+  color: #020101;
+  margin-top: 60px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem; }
+
+.client div div h2 p {
+  text-align: center;
+  flex-direction: row;
+  margin-top: 100px;
+  height: 40px;
+  color: #1f1a1a;
+  height: 100px; }
+
+.logos {
+  margin-top: 10px;
+  gap: 30px; }
+
+.boton.boton-negro {
+  margin-top: 20px; }
+
+.boton.boton-negro:hover {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: bold; }
+
+.portafolio {
+  width: 100vw;
+  background: var(--azul-fondo); }
+  .portafolio .portafolio-headings {
+    width: 100vw;
+    padding: 5em; }
+
+.portafolio-headings h2 {
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline; }
+
+.portafolio .container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; }
+
+.card {
+  width: 300px;
+  height: 360px;
+  background-color: #0a314b;
+  margin: 1em;
+  border-radius: 20px; }
+
+.card_img {
+  width: 100%;
+  height: 150px;
+  background-image: url(../assets/mascotas.jpg);
+  background-size: cover;
+  border-radius: 10px 10px 0 0; }
+
+.card_img2 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../assets/bannerprincipal.jpg);
+  background-size: cover;
+  border-radius: 10px 10px 0 0; }
+
+.card_img3 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../assets/banner2a.jpg);
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  background-position: 80; }
+
+.card_title {
+  padding: 20px;
+  text-align: center; }
+
+.card_title h2 {
+  font-size: 20px;
+  color: #fff; }
+
+.project-details {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 170px;
+  text-align: center;
+  height: 40px;
+  border-radius: 30px;
+  border: 2px solid var(--color-primario);
+  background: var(--color-primario);
+  font-family: 'Poppins', sans-serif; }
+
+.project-details a {
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  color: #dfdfdf;
+  font-weight: bold;
+  font-size: 1.1em; }
+
+#contacto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 120px;
+  padding-bottom: 150px; }
+  #contacto .contact_form {
+    width: 500px;
+    overflow: hidden; }
+  #contacto .contact_form h2 {
+    margin-top: 10px;
+    background: none repeat scroll 0 0 #c1bfbf;
+    border-radius: 5px;
+    color: #164a20;
+    display: block;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 100%; }
+  #contacto .contact_form ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+  #contacto .contact_form li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    position: relative; }
+  #contacto .contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: calibri;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px; }
+  #contacto .contact_form input {
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px; }
+  #contacto .contact_form textarea {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px; }
+  #contacto .contact_form button {
+    margin-left: 90px; }
+  #contacto .contact_form input,
+  #contacto .contact_form textarea {
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    color: #888;
+    font-size: 12px;
+    padding-right: 30px; }
+  #contacto .contact_form input:focus,
+  #contacto .contact_form textarea:focus {
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right: 80px; }
+  #contacto .contact_form input:required:valid,
+  #contacto .contact_form textarea:required:valid {
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f; }
+  #contacto button.submit {
+    padding: 9px 17px;
+    font-family: Helvetica, calibri, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    color: #444;
+    border: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+    background-image: linear, 0% 0%, 0% 100%, from(#fff), to(#bbb);
+    background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+  #contacto button.submit:hover {
+    opacity: 0.55;
+    cursor: pointer;
+    color: black; }
+  #contacto button.submit:active {
+    border: 1px solid #222;
+    box-shadow: 0 0 10px 5px #444 inset; }
+  #contacto fieldset {
+    width: 320px;
+    border-radius: 10px;
+    border: 1px solid #eee; }
+  #contacto input[type=radio] {
+    width: 30px;
+    float: left;
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right: 80px; }
+
+header {
+  width: 100%;
+  background: transparent; }
+
+#btn-menu {
+  display: none; }
+
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid #fff;
+  display: flex;
+  justify-content: justify-content;
+  align-items: align;
+  gap: gap; }
+
+header label:hover {
+  cursor: pointer;
+  background-color: aqua; }
+
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex; }
+
+.menu li {
+  border-right: 1px solid #fff; }
+
+.menu li:hover {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3); }
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none; }
+
+/**footer pages**/
+.desarrollar {
+  color: #f1eaea;
+  background-color: #000000; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+@media (max-width: 768px) {
+  .project-details a {
+    color: transparent; }
+  .card {
+    width: 90px;
+    height: 70px;
+    margin-top: 100px; }
+  header label {
+    display: block; }
+  .menu {
+    position: absolute;
+    background: #171740;
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s; }
+  .menu ul {
+    flex-direction: column; }
+  .menu li {
+    border-top: 1px solid #fff; }
+  #btn-menu:checked ~ .menu {
+    margin: 0; }
+  .desarrollar {
+    background-color: transparent;
+    color: transparent; }
+  .contact_form h2 {
+    margin-top: 200px; }
+  .text_main_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem; }
+  .home-text {
+    margin-top: 1px;
+    text-align: center; }
+  header .container nav a {
+    text-align: center;
+    flex-direction: row-reverse; }
+  .video {
+    margin-top: 40px;
+    display: block; } }
+
+.cuadrado {
+  margin-top: 80px;
+  font-size: 7px; }
+
+.imagen {
+  width: 300px; }
+
+.video {
+  margin-top: 40px;
+  display: block; }
+
+@media (max-width: 375px) {
+  .project-details a {
+    color: transparent; }
+  .card {
+    width: 90px;
+    height: 70px;
+    margin-top: 100px; }
+  .cuadrado {
+    margin-top: 50px;
+    font-size: 7px; }
+  .video {
+    margin-top: 40px;
+    display: block; }
+  .imagen {
+    width: 300px; } }
+
+@media (max-width: 320px) {
+  .project-details a {
+    color: transparent; }
+  .card {
+    width: 90px;
+    height: 70px;
+    margin-top: 100px; }
+  .card_img {
+    width: 100%;
+    height: 150px;
+    background-image: url(../assets/mascotas.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0; }
+  .card_img2 {
+    width: 100%;
+    height: 150px;
+    background-image: url(../assets/bannerprincipal.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0; }
+  .card_img3 {
+    width: 100%;
+    height: 150px;
+    background-image: url(../assets/banner2a.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    background-position: 80; }
+  .cuadrado {
+    margin-top: 50px;
+    font-size: 7px; }
+  .imagen {
+    width: 300px; }
+  .video {
+    margin-top: 40px;
+    display: block; }
+  .desarrollar {
+    background-color: transparent;
+    color: transparent; }
+  .flex-container {
+    background-color: transparent; }
+  .header {
+    display: block;
+    gap: 1px;
+    padding: 1px;
+    justify-content: center; } }

@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  background: $background;
+}
+
+#btn-menu {
+  display: none;
+}
+
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid #fff;
+  @include flex (justify-content,align,gap);
+}
+
+header label:hover{
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.menu ul { 
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  border-right: 1px solid #fff;
+}
+.menu li:hover{
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+
+}

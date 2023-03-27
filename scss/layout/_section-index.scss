@@ -1,0 +1,52 @@
+.parrafo{
+    .proyecto{
+      .main{
+        .text_main_buttons{
+          .item{
+            padding: 10px;
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 50px;
+            color: rgb(2, 1, 1);
+            margin-top: 60px;
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2rem;
+          }
+        }
+      }
+    }
+  }
+  
+  .client{
+    div{
+      div{
+        h2{
+          p{
+      text-align: center;
+      flex-direction: row;
+      margin-top: 100px;
+      height: 40px;
+      color: rgb(31, 26, 26);
+      height: 100px;
+      }
+    }
+  }
+}
+}
+  .logos{
+    margin-top: 10px;
+    gap: 30px;
+  }
+  .boton.boton-negro{
+    margin-top: 20px;
+  }
+  .boton.boton-negro:hover{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
